@@ -1,0 +1,70 @@
+.list {
+    align-self: center;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 50fr 50fr;
+    border: 1px solid white;
+    gap: 20px;
+    width: 700px;
+    margin: 20px 0;
+}
+
+.img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    margin: 15px 0 15px 15px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 0;
+    margin-top: 10px;
+}
+
+.labels {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    gap: 10px;
+}
+
+.labelGreen {
+    background: green;
+    color: black;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    padding: 0 5px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.labelBlue {
+    background: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    padding: 0 5px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.btnDelete {
+    background: grey;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 0 5px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-top: auto;
+    margin-bottom: 15px;
+}
